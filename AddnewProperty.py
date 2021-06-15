@@ -3,10 +3,10 @@ from selenium.webdriver.common.keys import Keys
 
 
 browser = webdriver.Firefox(executable_path="C:\\Users\\shehwar\\PycharmProjects\\SeleniumProject\\Drivers\\geckodriver.exe")
-browser.get('https://anoeye.com/login')
+browser.get('abc')
 
-browser.find_element_by_name('email').send_keys("engrfarkhanda6@gmail.com")
-browser.find_element_by_name('password').send_keys("haneen32303")
+browser.find_element_by_name('email').send_keys("xyz")
+browser.find_element_by_name('password').send_keys("pak1234")
 #browser.find_element_by_xpath('//button').click()
 browser.find_element_by_xpath('/html/body/div/div/div/div[2]/div/div[1]/div/div[2]/div[2]/form/div[5]/button').click()
 print("Logged in Successfully")
